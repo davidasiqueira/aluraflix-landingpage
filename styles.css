@@ -1,0 +1,139 @@
+* {
+    
+    color: #FFFFFF;
+}
+
+body {
+    font-family: 'Inter';
+    background-color:#00030C ;
+}
+
+.cabecalho {
+    height: 680px;
+    background-image: url(/img/Background.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.card-principal {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    justify-items: flex-start;
+    padding: 125px 92px;
+
+}
+.card-principal__titulo {
+    grid-column: 1 / span 2;
+    text-align: center;
+    font-weight: 700;
+    font-size: 28px;
+    margin-bottom: 11px;
+}
+
+.card-principal__combo-logo{
+    grid-column: 1 ;
+    margin: 11px auto;
+}
+
+.card-principal__botao {
+    grid-column: 1 ;
+    width: 512px;
+    border-radius: 8px;
+    height: 56px;
+}
+
+.botao__assinar{
+    margin: 43px 0 16px 0;
+    background: #167BF7 ;
+}
+
+.botao__assinar-somente{
+    margin-bottom: 10px;
+    border: 1px solid #FFFFFF;
+}
+
+.card-principal__observacoes{
+    grid-column: 1 ;
+    font-weight: 400;
+    color: #C0C0C0;
+    font-size: 12px;
+    margin: 0 auto;
+}
+
+.principal {
+    padding: 0 120px ;
+    display: grid;
+    row-gap: 150px;
+}
+.card{
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto;
+    align-items: center;
+    justify-content: space-around;
+}
+.card_section{
+    display:grid;
+    row-gap: 8px;
+}
+.card__titulo{
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 120%;
+}
+.card__paragrafo{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    color: #F9F9F9;
+}
+.card2__botao {
+    align-self: flex-start;
+    padding: 16px;
+    border-radius: 8px;
+    background: #167BF7;
+    width: 180px;
+    margin-top: 15px;
+}
+
+.card4 {
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto auto;
+    padding-bottom: 145px;
+}
+.card4__titulo{
+    grid-column: span 3;
+    text-align: center;
+    margin-bottom: 40px;
+}
+.card4__nome-dispositivo{
+    text-align: center;
+    font-weight: 700;
+    font-size: 32px
+}
+
+.rodape {
+    padding: 0 120px ;
+    display: grid;
+}
+.rodape__logo {
+    margin: 0 auto;
+    margin-bottom: 40px;
+}
+.rodape__links {
+    display:flex;
+    justify-content: space-around;
+    margin-bottom: 24px;
+}
+.rodape__link {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5rem;
+}
+.rodape__direitos {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 150%;
+    color: #C0C0C0;
+    text-align: center;
+    margin-bottom: 24px;
+}
